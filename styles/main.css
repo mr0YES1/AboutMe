@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@media screen and (max-width: 860px) {
+    html {
+        font-size: 16px;
+    }
+    .header {
+        height: max-content;
+    }
+    .headerContainer {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .headerContainer1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerSubContainer2 {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navigation a:not(:first-child) {display: none;}
+    .navigation a.icon {
+        display: block;
+        float: right;
+    }
+    .personalInfoBlock {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .headerContainer2 {
+        width: 100%;
+    }
+    .skillsContainer {
+        width: 90%;
+        flex-direction: row;
+        align-items: center;
+        row-gap: 2vh;
+        padding-bottom: 4vh;
+        height: max-content;
+    }
+    .avatar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .avatarPic {
+        width: 90%;
+    }
+    .aboutPersonContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4vh 0;
+    }
+    .mainContainer {
+        width: 90%;
+    }
+    .textAboutMe {
+        line-height: 2rem;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        height: max-content;
+        width: 100%;
+        padding: 8.77% 4.48% 7.02% 7.46%;
+    }
+    .limePic {
+        visibility: hidden;
+    }
+    .social {
+        width: 70%;
+    }
+    .socialsText {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 860px) {
+    .navbar {
+        width: 100%;
+
+    }
+    .navigation {
+        padding: 2vh;
+        width: 100%;
+    }
+    .navigation.responsive {
+        position: relative;
+
+    }
+    .navigation.responsive .icon {
+    position: absolute;
+    right: 2vh;
+    top: 2vh;
+  }
+  .navigation.responsive .headerLinkContent {
+    float: none;
+    display: block;
+    text-align: left;
+    padding-top: 0.3125rem;
+  }
+  .appLogoPic {
+    width: 75px;
+    height: 75px;
+    }
+    .darkForm {
+        width: 75px;
+    }
+
+}
+@media (max-width: 1366px) and (min-width: 861px) {
+    html {
+        font-size: 16px;
+    }
+    .navigation a.icon {
+        display: none;
+    }
+    .header {
+        height: 44vh;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navigation {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .avatarPic {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 90%;
+        flex-direction: row;
+    }
+    .headerContainer1 {
+        width: 70%;
+        flex-direction: row;
+        align-items: center;
+    }
+    .headerContainer2 {
+        justify-content: center;
+        width: 30%;
+    }
+    .personalInfoBlock {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .skillsContainer {
+        width: 50%;
+    }
+    .appLogoPic {
+        width: 90px;
+        height: 90px;
+    }
+    .darkForm {
+        width: 90px;
+    }
+    .avatar {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+    }
+    .mainContainer {
+        width: 90%;
+    }
+    .cards {
+        flex-direction: row;
+        align-items: center;
+    }
+    .card {
+        width: 49.26%;
+        padding: 2.2% 2.2% 1.76% 3.7%;
+    }
+    .cardContent {
+        width: 100%;
+    }
+    .limePic {
+        visibility: visible;
+    }
+    .social {
+        width: fit-content;
+    }
+    .socialsText {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 1367px) and (max-width: 1599px) {
+    html {
+        font-size: 18px;
+    }
+    .headerContainer {
+        width: 70.83vw;
+        height: 41.67vh;
+        flex-direction: row;
+    }
+    .headerContainer1 {
+        width: 66.62%;
+    }
+    .navigation a.icon {
+        display: none;
+    }
+    .personalInfoBlock {
+        justify-content: space-between;
+    }
+    .skillsContainer {
+        width: 48.56%;
+    }
+    .avatar {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+    }
+    .avatarPic {
+        width: 80%;
+    }
+    .aboutPersonContainer {
+        display: flex;
+        flex-direction: column;
+        width: 35.6%;
+
+    }
+    .headerContainer2 {
+        width: 33.38%;
+        display: flex;
+        justify-content: end;
+    }
+    .appLogoPic {
+        width: 105px;
+        height: 105px;
+    }
+    .darkForm {
+        width: 105px;
+    }
+    .personalInfoBlock {
+        flex-direction: row;
+    }
+    .mainContainer {
+        width: 70.83%;
+    }
+    .textAboutMe {
+        line-height: 2rem;
+    }
+    .card {
+        width: 49.26%;
+        min-height: 31.67vh;
+        align-items: center;
+        padding: 2.2% 2.2% 1.76% 3.7%;
+    }
+    .cardContent {
+        width: 100%;
+    }
+    .navigation {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .social {
+        width: max-content;
+    }
+    .socialsText {
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 1600px) {
+    html {
+        font-size: 20px;
+    }
+    .avatar {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+    }
+    .navigation a.icon {
+        display: none;
+    }
+    .navigation {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .headerContainer {
+        width: 70.83vw;
+        height: 41.67vh;
+        flex-direction: row;
+    }
+    .headerContainer1 {
+        width: 66.62%;
+    }
+    .navigation a.icon {
+        display: none;
+    }
+    .personalInfoBlock {
+        justify-content: space-between;
+    }
+    .skillsContainer {
+        width: 48.56%;
+    }
+    .aboutPersonContainer {
+        display: flex;
+        flex-direction: column;
+        width: 35.6%;
+    }
+    .headerContainer2 {
+        width: 33.38%;
+        display: flex;
+        justify-content: end;
+    }
+    .appLogoPic {
+        width: 105px;
+        height: 105px;
+    }
+    .darkForm {
+        width: 105px;
+    }
+    .personalInfoBlock {
+        flex-direction: row;
+    }
+    .mainContainer {
+        width: 70.83%;
+    }
+    .textAboutMe {
+        line-height: 2rem;
+    }
+    .card {
+        width: 49.26%;
+        min-height: 31.67vh;
+        align-items: center;
+        padding: 2.2% 2.2% 1.76% 3.7%;
+    }
+    .cardContent {
+        width: 100%;
+    }
+    .navigation {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .social {
+        width: max-content;
+    }
+    .socialsText {
+        font-size: 1.3rem;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.fa {
+    color: #fff;
+    scale: 200%;
+}
+.mainPage {
+    background-repeat: no-repeat;
+    background-color: rgb(80, 91, 84);
+    color: #fff;
+    background-attachment: fixed;
+}
+.worksPage {
+    background-repeat: no-repeat;
+    background-color: rgb(80, 91, 84);
+    color: #fff;
+    background-attachment: fixed;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.headerContainer {
+    display: flex;
+    justify-content: center;
+}
+.headerContainer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.headerContainer2 {
+    display: flex;
+}
+.headerSubContainer1 {
+    width: 100%;
+}
+.headerSubContainer2 {
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    text-decoration: none;
+    color:#F0FF7A;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-size: 1.2rem;
+}
+.headerLinkContent {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+.personalInfoBlock {
+    width: 100%;
+    display: flex;
+}
+.skillsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.darkForm {
+    background-color: #000;
+    height: 17px;
+    border: none;
+    border-radius: 14px;
+}
+.brightForm {
+    border: none;
+    background-color: #D3E16D;
+    height: 100%;
+    border-radius: 14px;
+}
+.statusBar1 {
+    width: 61%;
+}
+.statusBar2 {
+    width: 74%;
+}
+.statusBar3 {
+    width: 57%;
+}
+.appLogo {
+    padding-bottom: 2.6%;
+}
+
+.fullNameTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+.jobTitle {
+    font-size: 1.5rem;
+    padding-top: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+}
+.main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutMeBlock {
+    margin-top: 6.5vh;
+    height: max-content;
+    width: 100%;
+}
+.textAboutMe {
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    text-align: justify;
+}
+.titleBox {
+    line-height: 24px;
+    color: #F0FF7A;
+    font-size: 3.2rem;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    padding-bottom: 6.5vh;
+}
+.videoBlock {
+    width: 100%;
+}
+.work {
+    padding-top: 6.48vh;
+}
+.videoPreview {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6.48vh;
+
+}
+.iframeContainer {
+    border-radius: 2.5rem;
+    width: 100%;
+    height: 100%;
+}
+.iframe {
+    width: 100%;
+    height: 100%;
+}
+.videoDiscription {
+    font-size: 1rem;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    margin-bottom: 6.48vh;
+}
+
+.ideaBlock {
+    width: 100%;
+    margin-bottom: 6.48vh;
+}
+.talantsBlock {
+    padding-top: 4rem;
+    width: 100%;
+}
+.limePic {
+    z-index: 5;
+    position: absolute;
+    top: -15%;
+    right: 22%;
+    width: 6.93vw;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 1vw;
+    row-gap: 3vh;
+}
+.card {
+    min-height: 31.67vh;
+    border-radius: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075),
+    0px 0px 2px 4px rgba(0, 0, 0, 0.075);
+}
+.cardIcon {
+    padding-bottom: 2vh;
+}
+.cardContent {
+    font-size: 1.25rem;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
+.cardTitle {
+    font-weight: 700;
+}
+.experienceBlock {
+    padding-top: 12.97vh;
+    width: 100%;
+    margin-bottom: 17.6vh;
+}
+.paragraph1 {
+    font-size: 1.25rem;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+.paragraph2 {
+    font-size: 1.25rem;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    list-style-position: inside;
+}
+.list {
+    list-style-position: inside;
+}
+.subElement {
+    margin-left: 60px;
+    tab-size: 1;
+    list-style: disc;
+}
+.footer {
+    position: relative;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../content/images/footer_bg.png);
+    background-size: 100% 100%;
+}
+.footerContainer {
+    width: 70.83vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sociualsBox {
+    height: 230px;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socialLogo {
+    width: 100%;
+    height: 100%;
+}
+.socialsText {
+    opacity: 0.42;
+    padding-top: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
